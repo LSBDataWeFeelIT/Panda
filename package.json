@@ -1,0 +1,19 @@
+{
+  "name": "@lsbdatawefeelit/panda",
+  "version": "0.1.0",
+  "description": "podstawowa wersja dla app js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LSBDataWeFeelIT/Panda.git"
+  },
+  "author": "lsb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LSBDataWeFeelIT/Panda/issues"
+  },
+  "homepage": "https://github.com/LSBDataWeFeelIT/Panda#readme"
+}
