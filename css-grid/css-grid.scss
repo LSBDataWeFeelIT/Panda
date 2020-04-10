@@ -1,0 +1,103 @@
+.container {
+  width: 1618px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+
+  &.container-center {
+    justify-items: center;
+  }
+
+  @media (max-width: $break-xl) {
+    width: 1140px;
+
+  }
+  @media (max-width: $break-lg) {
+    width: 900px;
+
+  }
+
+  @media (max-width: $break-md) {
+    width: 720px;
+    padding-left:0px;
+
+  }
+
+  @media (max-width: $break-sm) {
+    width: 540px;
+
+  }
+
+  @media (max-width: $break-xs) {
+
+    width: 100%;
+
+  }
+
+
+}
+
+
+
+
+
+
+@each $size in $sizes {
+  .grid-col-#{$size} {
+    grid-column: span $size;
+  }
+}
+
+
+@media (max-width: 1800px) {
+
+  @each $size in $sizes {
+    .grid-col-xxl-#{$size} {
+      grid-column: span $size;
+    }
+  }
+
+}
+
+@media (max-width: 1199px) {
+
+  @each $size in $sizes {
+    .grid-col-xl-#{$size} {
+      grid-column: span $size;
+    }
+  }
+
+}
+
+@media (max-width: 991px) {
+
+  @each $size in $sizes {
+    .grid-col-lg-#{$size} {
+      grid-column: span $size;
+    }
+  }
+
+}
+
+@media (max-width: 767px) {
+  @each $size in $sizes {
+    .grid-col-md-#{$size} {
+      grid-column: span $size;
+    }
+  }
+
+
+}
+
+@media (max-width: 575px) {
+
+  @each $size in $sizes {
+    .grid-col-sm-#{$size} {
+      grid-column: span $size;
+    }
+  }
+
+}
+
+
+

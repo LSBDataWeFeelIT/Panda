@@ -1,0 +1,100 @@
+@each $size in $psizes {
+  .pt-#{$size} {
+    padding-top: #{$size}rem;
+  }
+  .pb-#{$size} {
+    padding-top: #{$size}rem;
+  }
+  .py-#{$size} {
+    padding-top: #{$size}rem;
+    padding-bottom: #{$size}rem;
+  }
+}
+
+
+@media (max-width: $break-xl) {
+
+  @each $size in $psizes {
+    .pt-#{$size} {
+      padding-top: #{$size}rem;
+    }
+    .pb-#{$size} {
+      padding-top: #{$size}rem;
+    }
+    .py-#{$size} {
+      padding-top: #{$size}rem;
+      padding-bottom: #{$size}rem;
+    }
+  }
+
+}
+
+@media (max-width: $break-lg) {
+
+  @each $size in $psizes {
+    .pt-#{$size} {
+      padding-top: #{$size}rem;
+    }
+    .pb-#{$size} {
+      padding-top: #{$size}rem;
+    }
+    .py-#{$size} {
+      padding-top: #{$size}rem;
+      padding-bottom: #{$size}rem;
+    }
+  }
+
+}
+
+@media (max-width: $break-md) {
+
+  @each $size in $psizes {
+    .pt-#{$size} {
+      padding-top: #{$size}rem;
+    }
+    .pb-#{$size} {
+      padding-top: #{$size}rem;
+    }
+    .py-#{$size} {
+      padding-top: #{$size}rem;
+      padding-bottom: #{$size}rem;
+    }
+  }
+
+}
+
+@media (max-width: $break-sm) {
+  @each $size in $psizes {
+    .pt-#{$size} {
+      padding-top: #{$size}rem;
+    }
+    .pb-#{$size} {
+      padding-top: #{$size}rem;
+    }
+    .py-#{$size} {
+      padding-top: #{$size}rem;
+      padding-bottom: #{$size}rem;
+    }
+  }
+
+
+}
+
+@media (max-width: $break-xs) {
+
+  @each $size in $psizes {
+    .pt-#{$size} {
+      padding-top: #{$size}rem;
+    }
+    .pb-#{$size} {
+      padding-top: #{$size}rem;
+    }
+    .py-#{$size} {
+      padding-top: #{$size}rem;
+      padding-bottom: #{$size}rem;
+    }
+  }
+
+}
+
+
