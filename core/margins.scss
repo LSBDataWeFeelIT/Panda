@@ -1,13 +1,13 @@
 @each $size in $psizes {
   .mt-#{$size} {
-    padding-top: #{$size}rem;
+    margin-top: #{$size}rem;
   }
   .mb-#{$size} {
-    padding-top: #{$size}rem;
+    margin-bottom: #{$size}rem;
   }
   .my-#{$size} {
-    padding-top: #{$size}rem;
-    padding-bottom: #{$size}rem;
+    margin-top: #{$size}rem;
+    margin-bottom: #{$size}rem;
   }
 }
 
@@ -16,14 +16,14 @@
 
   @each $size in $psizes {
     .mt-#{$size} {
-      padding-top: #{$size}rem;
+      margin-top: #{$size}rem;
     }
     .mb-#{$size} {
-      padding-top: #{$size}rem;
+      margin-bottom: #{$size}rem;
     }
     .my-#{$size} {
-      padding-top: #{$size}rem;
-      padding-bottom: #{$size}rem;
+      margin-top: #{$size}rem;
+      margin-bottom: #{$size}rem;
     }
   }
 
@@ -33,14 +33,14 @@
 
   @each $size in $psizes {
     .mt-#{$size} {
-      padding-top: #{$size}rem;
+      margin-top: #{$size}rem;
     }
     .mb-#{$size} {
-      padding-top: #{$size}rem;
+      margin-bottom: #{$size}rem;
     }
     .my-#{$size} {
-      padding-top: #{$size}rem;
-      padding-bottom: #{$size}rem;
+      margin-top: #{$size}rem;
+      margin-bottom: #{$size}rem;
     }
   }
 
@@ -50,14 +50,14 @@
 
   @each $size in $psizes {
     .mt-#{$size} {
-      padding-top: #{$size}rem;
+      margin-top: #{$size}rem;
     }
     .mb-#{$size} {
-      padding-top: #{$size}rem;
+      margin-bottom: #{$size}rem;
     }
     .my-#{$size} {
-      padding-top: #{$size}rem;
-      padding-bottom: #{$size}rem;
+      margin-top: #{$size}rem;
+      margin-bottom: #{$size}rem;
     }
   }
 
@@ -66,14 +66,14 @@
 @media (max-width: $break-sm) {
   @each $size in $psizes {
     .mt-#{$size} {
-      padding-top: #{$size}rem;
+      margin-top: #{$size}rem;
     }
     .mb-#{$size} {
-      padding-top: #{$size}rem;
+      margin-bottom: #{$size}rem;
     }
     .my-#{$size} {
-      padding-top: #{$size}rem;
-      padding-bottom: #{$size}rem;
+      margin-top: #{$size}rem;
+      margin-bottom: #{$size}rem;
     }
   }
 
@@ -84,14 +84,14 @@
 
   @each $size in $psizes {
     .mt-#{$size} {
-      padding-top: #{$size}rem;
+      margin-top: #{$size}rem;
     }
     .mb-#{$size} {
-      padding-top: #{$size}rem;
+      margin-bottom: #{$size}rem;
     }
     .my-#{$size} {
-      padding-top: #{$size}rem;
-      padding-bottom: #{$size}rem;
+      margin-top: #{$size}rem;
+      margin-bottom: #{$size}rem;
     }
   }
 
