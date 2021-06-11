@@ -1,5 +1,5 @@
 .container {
-  width: 1618px;
+  width: $xxl;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -9,28 +9,27 @@
   }
 
   @media (max-width: $break-xl) {
-    width: 1140px;
+    width: $xl;
 
   }
   @media (max-width: $break-lg) {
-    width: 900px;
+    width: $lg;
 
   }
 
   @media (max-width: $break-md) {
-    width: 720px;
-    padding-left:0px;
+    width: $md;
 
   }
 
   @media (max-width: $break-sm) {
-    width: 540px;
+    width: $sm;
 
   }
 
   @media (max-width: $break-xs) {
 
-    width: 100%;
+    width: $xs;
 
   }
 
