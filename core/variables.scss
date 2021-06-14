@@ -1,17 +1,17 @@
 //breakpointy
-$break-xl: 1800px;
-$break-lg: 1200px;
-$break-md:991px;
-$break-sm: 767px;
-$break-xs: 575px;
+$break-xl: 1800px !default;
+$break-lg: 1200px !default;
+$break-md:991px !default;
+$break-sm: 767px !default;
+$break-xs: 575px !default;
 
 //containers
-$xxl: 1618px;
-$xl:1140px;
-$lg:900px;
-$md:720px;
-$sm:514px;
-$xs:100%;
+$xxl: 1618px !default;
+$xl:1140px !default;
+$lg:900px !default;
+$md:720px !default;
+$sm:514px !default;
+$xs:100% !default;
 
 
 //rozmiary kolumn w gridzie
@@ -21,21 +21,21 @@ $sizes: 1 2 3 4 5 6 7 8 9 10 12;
 $psizes: 1 2 3 4 5 7 10;
 
 //waga fontow
-$light: 300;
-$regular: 400;
-$medium: 500;
-$semi-bold: 600;
-$bold: 700;
+$light: 300 !default;
+$regular: 400 !default;
+$medium: 500 !default;
+$semi-bold: 600 !default;
+$bold: 700 !default;
 
 //naglowki/fonty wielkosc
 
-$h1size: 3.75rem;//60
-$h2size: 3.125rem;//50
-$h3size: 2.5rem;//40
-$h4size: 1.875rem;//30
-$h5size: 1.25rem;//20
-$h6size: 1rem;//16
-$primary-size: 0.875rem;//14
+$h1size: 3.75rem !default;//60
+$h2size: 3.125rem !default;//50
+$h3size: 2.5rem !default;//40
+$h4size: 1.875rem !default;//30
+$h5size: 1.25rem !default;//20
+$h6size: 1rem !default;//16
+$primary-size: 0.875rem !default;//14
 
 
 

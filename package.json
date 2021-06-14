@@ -1,7 +1,7 @@
 {
   "name": "@lsbdatawefeelit/panda",
-  "version": "0.3.0",
-  "description": "podstawowa wersja styli dla app js",
+  "version": "0.5.0",
+  "description": "basic version of styles for cms projects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
