@@ -48,7 +48,7 @@
 }
 
 
-@media (max-width: 1800px) {
+@media (max-width: $break-xl) {
 
   @each $size in $sizes {
     .grid-col-xxl-#{$size} {
@@ -58,7 +58,7 @@
 
 }
 
-@media (max-width: 1199px) {
+@media (max-width: $break-lg) {
 
   @each $size in $sizes {
     .grid-col-xl-#{$size} {
@@ -68,7 +68,7 @@
 
 }
 
-@media (max-width: 991px) {
+@media (max-width: $break-md) {
 
   @each $size in $sizes {
     .grid-col-lg-#{$size} {
@@ -78,7 +78,7 @@
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: $break-sm) {
   @each $size in $sizes {
     .grid-col-md-#{$size} {
       grid-column: span $size;
@@ -88,7 +88,7 @@
 
 }
 
-@media (max-width: 575px) {
+@media (max-width: $break-xs) {
 
   @each $size in $sizes {
     .grid-col-sm-#{$size} {
@@ -100,3 +100,69 @@
 
 
 
+.grid {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: $column-gap;
+  grid-row-gap: 0px;
+  width: 100%;
+  @media (max-width: $break-xl) {
+    grid-column-gap: $column-gap-xl;
+  }
+  @media (max-width: $break-lg) {
+    grid-column-gap: $column-gap-lg;
+  }
+  @media (max-width: $break-md) {
+    grid-column-gap: $column-gap-md;
+  }
+  @media (max-width: $break-sm) {
+    grid-column-gap: $column-gap-sm;
+  }
+  @media (max-width: $break-xs) {
+    grid-column-gap: $column-gap-xs;
+  }
+}
+
+//.parent-full {
+//  display: grid;
+//  grid-column-start: 1;
+//  grid-column-end: 13;
+//  grid-template-columns: repeat(12, 1fr);
+//  grid-template-rows: 1fr;
+//  grid-column-gap: 0px;
+//  grid-row-gap: 0px;
+//  width: 100%;
+//}
+//
+//@for $i from 1 through 12 {
+//  .parent-#{$i} {
+//    display: grid;
+//    grid-column-start: 1;
+//    grid-column-end: ($i + 1);
+//    grid-template-columns: repeat($i, 1fr);
+//    grid-template-rows: 1fr;
+//    grid-column-gap: 80px;
+//    grid-row-gap: 0px;
+//    width: 100%;
+//    @media (max-width: 1800px) {
+//      grid-column-gap: 60px;
+//    }
+//    @media (max-width: 1199px) {
+//      grid-column-gap: 40px;
+//    }
+//    @media (max-width: 991px) {
+//      grid-column-gap: 55px;
+//      padding-top:1rem;
+//      padding-bottom:3rem;
+//      display: flex;
+//      flex-direction: column;
+//
+//    }
+//    @media (max-width: 767px) {
+//      grid-column-gap: 25px;
+//    }
+//  }
+//}
