@@ -1,6 +1,6 @@
 {
   "name": "@lsbdatawefeelit/panda",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "basic version of styles for cms projects",
   "main": "index.js",
   "scripts": {
