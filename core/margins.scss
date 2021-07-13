@@ -15,13 +15,13 @@
 @media (max-width: $break-xl) {
 
   @each $size in $psizes {
-    .mt-#{$size} {
+    .mt-xl-#{$size} {
       margin-top: #{$size}rem;
     }
-    .mb-#{$size} {
+    .mb-xl-#{$size} {
       margin-bottom: #{$size}rem;
     }
-    .my-#{$size} {
+    .my-xl-#{$size} {
       margin-top: #{$size}rem;
       margin-bottom: #{$size}rem;
     }
@@ -32,13 +32,13 @@
 @media (max-width: $break-lg) {
 
   @each $size in $psizes {
-    .mt-#{$size} {
+    .mt-lg-#{$size} {
       margin-top: #{$size}rem;
     }
-    .mb-#{$size} {
+    .mb-lg-#{$size} {
       margin-bottom: #{$size}rem;
     }
-    .my-#{$size} {
+    .my-lg-#{$size} {
       margin-top: #{$size}rem;
       margin-bottom: #{$size}rem;
     }
@@ -49,13 +49,13 @@
 @media (max-width: $break-md) {
 
   @each $size in $psizes {
-    .mt-#{$size} {
+    .mt-md-#{$size} {
       margin-top: #{$size}rem;
     }
-    .mb-#{$size} {
+    .mb-md-#{$size} {
       margin-bottom: #{$size}rem;
     }
-    .my-#{$size} {
+    .my-md-#{$size} {
       margin-top: #{$size}rem;
       margin-bottom: #{$size}rem;
     }
@@ -65,13 +65,13 @@
 
 @media (max-width: $break-sm) {
   @each $size in $psizes {
-    .mt-#{$size} {
+    .mt-sm-#{$size} {
       margin-top: #{$size}rem;
     }
-    .mb-#{$size} {
+    .mb-sm-#{$size} {
       margin-bottom: #{$size}rem;
     }
-    .my-#{$size} {
+    .my-sm-#{$size} {
       margin-top: #{$size}rem;
       margin-bottom: #{$size}rem;
     }
@@ -83,13 +83,13 @@
 @media (max-width: $break-xs) {
 
   @each $size in $psizes {
-    .mt-#{$size} {
+    .mt-xs-#{$size} {
       margin-top: #{$size}rem;
     }
-    .mb-#{$size} {
+    .mb-xs-#{$size} {
       margin-bottom: #{$size}rem;
     }
-    .my-#{$size} {
+    .my-xs-#{$size} {
       margin-top: #{$size}rem;
       margin-bottom: #{$size}rem;
     }

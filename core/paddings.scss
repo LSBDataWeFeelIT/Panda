@@ -15,13 +15,13 @@
 @media (max-width: $break-xl) {
 
   @each $size in $psizes {
-    .pt-#{$size} {
+    .pt-xl-#{$size} {
       padding-top: #{$size}rem;
     }
-    .pb-#{$size} {
+    .pb-xl-#{$size} {
       padding-bottom: #{$size}rem;
     }
-    .py-#{$size} {
+    .py-xl-#{$size} {
       padding-top: #{$size}rem;
       padding-bottom: #{$size}rem;
     }
@@ -32,13 +32,13 @@
 @media (max-width: $break-lg) {
 
   @each $size in $psizes {
-    .pt-#{$size} {
+    .pt-lg-#{$size} {
       padding-top: #{$size}rem;
     }
-    .pb-#{$size} {
+    .pb-lg-#{$size} {
       padding-bottom: #{$size}rem;
     }
-    .py-#{$size} {
+    .py-lg-#{$size} {
       padding-top: #{$size}rem;
       padding-bottom: #{$size}rem;
     }
@@ -49,13 +49,13 @@
 @media (max-width: $break-md) {
 
   @each $size in $psizes {
-    .pt-#{$size} {
+    .pt-md-#{$size} {
       padding-top: #{$size}rem;
     }
-    .pb-#{$size} {
+    .pb-md-#{$size} {
       padding-bottom: #{$size}rem;
     }
-    .py-#{$size} {
+    .py-md-#{$size} {
       padding-top: #{$size}rem;
       padding-bottom: #{$size}rem;
     }
@@ -65,13 +65,13 @@
 
 @media (max-width: $break-sm) {
   @each $size in $psizes {
-    .pt-#{$size} {
+    .pt-sm-#{$size} {
       padding-top: #{$size}rem;
     }
-    .pb-#{$size} {
+    .pb-sm-#{$size} {
       padding-bottom: #{$size}rem;
     }
-    .py-#{$size} {
+    .py-sm-#{$size} {
       padding-top: #{$size}rem;
       padding-bottom: #{$size}rem;
     }
@@ -83,13 +83,13 @@
 @media (max-width: $break-xs) {
 
   @each $size in $psizes {
-    .pt-#{$size} {
+    .pt-xs-#{$size} {
       padding-top: #{$size}rem;
     }
-    .pb-#{$size} {
+    .pb-xs-#{$size} {
       padding-bottom: #{$size}rem;
     }
-    .py-#{$size} {
+    .py-xs-#{$size} {
       padding-top: #{$size}rem;
       padding-bottom: #{$size}rem;
     }
